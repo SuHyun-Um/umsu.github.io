@@ -81,7 +81,7 @@ content:
       - layout: left
         title: DevOps
         description: | # this will include new lines to allow paragraphs
-            * MySQL, MariaDB,Oracle
+            * MySQL, MariaDB, Oracle
             * Jenkins
             * AWS S3, EC2
             * Tomcat
@@ -96,6 +96,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 대학교 수강신청 Application
+        link: https://github.com/umsu/Class-Registration-Application
+        link_text: Class-Registration-Application
+        additional_links:
+          - title:  umsu/Class-Registration-Application
+            icon: fab fa-github
+            url: https://github.com/umsu/Class-Registration-Application
+        quote: >
+          대학교 수강신청 APP
+        description: | # this will include new lines to allow paragraphs
+          대학생때 수강신청을 항상 웹으로만 할수 있어서  APP 으로도 신청하면 좋겠다 라는 생각으로 개발한 어플리케이션 입니다.
+      - layout: left
         title: 반려견 자가진단
         link: https://github.com/umsu/PET
         link_text: 반려견 자가진단 사이트
@@ -104,9 +116,10 @@ content:
             icon: fab fa-github
             url: https://github.com/umsu/PET
         quote: >
-          반려견 질명 목록 확인 및 반려견 셀프 진단 웹 사이트 입니다.
+          소중한 반려견이 어떤 병에 걸렸는지, 어떻게 치료해야 할지 간편하게 알아보세요 !!
         description: | # this will include new lines to allow paragraphs
-          소중한 반려견이 어떤 병에 걸렸는지, 어떻게 치료해야 할지 간편하게 알아보세요!
+          반려견 질명 목록 확인 및 반려견 셀프 진단 웹 사이트 입니다.
+
 
 
   - title: Experience
@@ -114,24 +127,29 @@ content:
     content:
       - layout: left
         title: WoongJin
-        sub_title: 웹 개발자
+        sub_title: 웹 개발 담당
         caption: 2020.09 ~ 현재
         link: www.woongjin.com
         quote: >
           연매출 1000억의 중견 SI 기업
         description: | # this will include new lines to allow paragraphs
               * 사내 프로젝트 개발 및 100억원의 SI 프로젝트 참여
-              * 넥스트 레벨(넥센) o2o 프로젝트 참여 및 쿠팡 연계 개발 참여
+              * [넥스트 레벨 o2o 프로젝트 참여](https://www.nexen-nextlevel.com/main)  및   [쿠팡 연계 개발 참여](https://www.coupang.com/np/search?component=&q=%EB%84%A5%EC%84%BC%ED%83%80%EC%9D%B4%EC%96%B4&channel=user)
               * 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발 경험
       - layout: left
         title: Bespin Global
-        sub_title: 웹 개발자
+        sub_title: DevOs 개발 담당
         caption: 2019.10 ~ 2020.08
         link: https://www.bespinglobal.com
         quote: >
           클라우드 MSP, 클라우드 이전, 구축, 운영 파트너, 클라우드 서비스
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        description: | # this will include new lines to allow paragraphs https://www.bespinglobal.com/ds_devops/
+          * [클라우드 통합 관리 자동화 시스템 개발 (AWX)](https://www.bespinglobal.com/ds_devops/)
+          * Vue.js 기반 AWS 인스턴스 자원 별 정보를 담은 대시보드 화면 개발 담당
+          * BootStrap 기반 반응형 웹 디자인
+          * REST API 설계 및 개발
+          * AWS  서버 구축 및 배포 작업
+          * Docker compose 기반 CI/CD 구축 및 운영 (jenkins)
 
   - title: Education
     layout: list
