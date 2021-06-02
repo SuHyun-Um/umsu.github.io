@@ -1,0 +1,179 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 엄수현
+title: Java 백엔드 개발자
+email: zark1006@gmail.com
+# email_title: Email (Email title override)
+phone: 010-9037-4176
+# phone_title: Phone (Phone title override)
+website: https://velog.io/@umsu
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username:
+github_username:  umsu
+#stackoverflow_username:
+#dribbble_username: jekyll
+#facebook_username:
+#flickr_username: jekyll
+instagram_username: su180101
+#linkedin_username:
+#xing_username:
+#pinterest_username:
+#youtube_username:
+#googleplus_username:
+#orcid_username:
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+#about_title: About Me (Use this to override about section title)
+about_profile_image: images/hyun.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Java & Spring, AWS 기반의 <mark>1년차</mark> 백엔드 개발자 입니다.
+
+
+content:
+  - title: 역량
+    layout: list
+    content:
+      - layout: top-middle
+        name: 개발
+        link:
+        quote: >
+          2019.10.28 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          *
+
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+              * Java
+              * Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS
+              * JPA, Hibernate
+              * Gradle, Maven
+              * IntelliJ, Visual Studio Code
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+            * MySQL, MariaDB,Oracle
+            * Jenkins
+            * AWS S3, EC2
+            * Tomcat
+            * Linux Centos
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+             *  Vue.js, JavaScript
+             *  Webpack
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 반려견 자가진단
+        link: https://github.com/umsu/PET
+        link_text: 반려견 자가진단 사이트
+        additional_links:
+          - title:  umsu/PET
+            icon: fab fa-github
+            url: https://github.com/umsu/PET
+        quote: >
+          반려견 질명 목록 확인 및 반려견 셀프 진단 웹 사이트 입니다.
+        description: | # this will include new lines to allow paragraphs
+          소중한 반려견이 어떤 병에 걸렸는지, 어떻게 치료해야 할지 간편하게 알아보세요!
+
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: WoongJin
+        sub_title: 웹 개발자
+        caption: 2020.09 ~ 현재
+        link: www.woongjin.com
+        quote: >
+          연매출 1000억의 중견 SI 기업
+        description: | # this will include new lines to allow paragraphs
+              * 사내 프로젝트 개발 및 100억원의 SI 프로젝트 참여
+              * 넥스트 레벨(넥센) o2o 프로젝트 참여 및 쿠팡 연계 개발 참여
+              * 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발 경험
+      - layout: left
+        title: Bespin Global
+        sub_title: 웹 개발자
+        caption: 2019.10 ~ 2020.08
+        link: https://www.bespinglobal.com
+        quote: >
+          클라우드 MSP, 클라우드 이전, 구축, 운영 파트너, 클라우드 서비스
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: 비트교육센터 JAVA EnterPrise
+        sub_title: 고급 개발 양성 과정
+        caption: 2019.07 ~ 2019.08
+        quote: >
+          WEB  개발에 필요한 기본 개념들과 배포 환경 구성 교육
+        description: | # this will include new lines to allow paragraphs
+          * 펜센 홈페이지 개발
+
+  - title: 외부 활동
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
